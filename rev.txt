@@ -1,0 +1,11 @@
+css units
+Z indix positiv ,nagative
+positions sitky fixed reletive abs
+psudo element
+i have 3 divs 
+div 1
+div 2
+div 3
+dont use class or isd selector or html tag ne pan halavi na sakay  
+hint using psudo element
+

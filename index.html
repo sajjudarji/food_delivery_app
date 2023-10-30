@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile_style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <img src="photos/logo.png" alt="" id="logo">
+    <div id="search-input-div">
+      <input type="search" placeholder="  Search" id="search-area">
+      <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+    </div>
+    <ul class="list-items">
+      <li><b>Restaurants</b></li>
+      <li><b>Deals</b></li>
+      <hr>
+      <li><b>My orders</b></li>
+    </ul>
+    <div id="perant-1">
+      <div id="cart-parent">
+        <img src="photos/shopping bag.png" alt="" id="cart-png">
+        <div id="number-perant">
+          <p class="number">4</p>
+        </div>
+      </div>
+    </div>
+    <img src="photos/profil.png" alt="" id="profil">
+    <div id="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- discount cards -->
+  <div id="main-detail-box">
+    <div id="card-1" class="detail-box">
+      <img class="product-img" src="photos/cake .png" alt="">
+      <div class="content">
+        <div>
+          <p class="detail-1">All deserts</p>
+          <h1 class="detail-2">20% OFF</h1>
+        </div>
+        <p class="detail-3">Deserty</p>
+      </div>
+    </div>
+
+    <div id="card-2" class="detail-box">
+      <img class="product-img" src="photos/burger.png" alt="">
+      <div class="content">
+        <div>
+          <p class="detail-1">Big Burgers</p>
+          <h1 class="detail-2" id="discount">50% OFF</h1>
+        </div>
+        <p class="detail-3">Fooddies</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- menulist small cards  -->
+  <div id="menu-list-mainbox">
+    <div class="menu-items">
+      <img src="photos/emojis/pizza1.png" alt="">
+      <p class="item-name">Pizza</p>
+    </div>
+    <div class="menu-items">
+      <img src="photos/emojis/burgar.png" alt="">
+      <p class="item-name">Burger</p>
+    </div>
+    <div class="menu-items">
+      <img src="photos/emojis/meat.png" alt="">
+      <p class="item-name">BBQ</p>
+    </div>
+    <div class="menu-items">
+      <img src="photos/emojis/sushi.png" alt="">
+      <p class="item-name">Sushi</p>
+    </div>
+    <div class="menu-items">
+      <img src="photos/emojis/broccoli.png" alt="">
+      <p class="item-name">Vegan</p>
+    </div>
+    <div class="menu-items">
+      <img src="photos/emojis/cake.png" alt="">
+      <p class="item-name">Desserts</p>
+    </div>
+
+  </div>
+
+
+  <!--  main cards  -->
+  <div id="main-container">
+    <div id="rest-content">
+      <div id="rest-heading">
+        <h3 class="heading">Nearby restaurants</h3>
+      </div>
+      <div id="rest-list">
+        <div class="rest-card" id="rest-card-1">
+          <div class="card-img" id="card-img-1">
+            <div class="featured">
+              <p>FEATURED</p>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Royal Sushi House</p>
+              <img src="photos/shopping-bag-2.png" style="width: 25px;">
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>30-40 min</p>
+              <i class="fa-solid fa-circle   " style="color: #4E60FF;"></i>
+              <p>$32 min sum</p>
+            </div>
+            <div class="cardinfo-3">
+              <img src="photos/emojis/sushi.png" alt="" class="shushi-png">
+              <p>Sushi</p>
+            </div>
+          </div>
+        </div>
+        <div class="rest-card" id="rest-card-2">
+          <div class="card-img" id="card-img-2">
+            <div class="featured">
+              <p>FEATURED</p>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Burgers & Pizza</p>
+              <div id="rest-cart-perant">
+                <div id="rest-cart-child">
+                  <p>2</p>
+                </div>
+                <img src="photos/shopping bag.png" style="width: 25px;">
+              </div>
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>40-60 min</p>
+              <i class="fa-solid fa-circle  " style="color: #4E60FF;"></i>
+              <p>$24 min sum</p>
+            </div>
+            <div class="card-info-3-parent">
+              <div class="cardinfo-3">
+                <img src="photos/emojis/burgar.png" alt="" class="card-info-png">
+                <p>Burger</p>
+              </div>
+              <div class="cardinfo-3">
+                <img src="photos/emojis/pizza1.png" alt="" class="card-info-png">
+                <p>Pizza</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="rest-card" id="rest-card-3">
+          <div class="card-img" id="card-img-3"></div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Ninja sushi</p>
+              <img src="photos/shopping-bag-2.png" style="width: 25px;">
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>20-40 min</p>
+              <i class="fa-solid fa-circle   " style="color: #4E60FF;"></i>
+              <p>$40 min sum</p>
+            </div>
+            <div class="cardinfo-3">
+              <img src="photos/emojis/sushi.png" alt="" class="shushi-png">
+              <p>Sushi</p>
+            </div>
+          </div>
+        </div>
+        <div class="rest-card" id="rest-card-4">
+          <div class="card-img" id="card-img-4"></div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Sushi master</p>
+              <img src="photos/shopping-bag-2.png" style="width: 25px;">
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>60-70 min</p>
+              <i class="fa-solid fa-circle " style="color: #4E60FF;"></i>
+              <p>$49 min sum</p>
+            </div>
+            <div class="cardinfo-3">
+              <img src="photos/emojis/sushi.png" alt="" class="shushi-png">
+              <p>Sushi</p>
+            </div>
+          </div>
+        </div>
+        <div class="rest-card" id="rest-card-5">
+          <div class="card-img" id="card-img-5"></div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Japanese sushi </p>
+              <img src="photos/shopping-bag-2.png" style="width: 25px;">
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>30-50 min</p>
+              <i class="fa-solid fa-circle   " style="color: #4E60FF;"></i>
+              <p>$104 min sum</p>
+            </div>
+            <div class="cardinfo-3">
+              <img src="photos/emojis/sushi.png" alt="" class="shushi-png">
+              <p>Sushi</p>
+            </div>
+          </div>
+        </div>
+        <div class="rest-card" id="rest-card-6">
+          <div class="card-img" id="card-img-6"></div>
+          <div class="card-info">
+            <div class="cardinfo-1">
+              <p>Kobe</p>
+              <img src="photos/shopping-bag-2.png" style="width: 25px;">
+            </div>
+            <div class="cardinfo-2">
+              <i class="fa-regular fa-clock"></i>
+              <p>20-30min</p>
+              <i class="fa-solid fa-circle" style="color: #4E60FF;"></i>
+              <p>$57 min sum</p>
+            </div>
+            <div class="cardinfo-3">
+              <img src="photos/emojis/sushi.png" alt="" class="shushi-png">
+              <p>Sushi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="load-more-btn">
+      <button>Load more</button>
+    </div>
+
+
+
+    <footer>
+      <div id="footer-content">
+        <div id="ftr-content-1">
+          <div id="ftr-logo-div">
+            <img src="photos/footer_logo.png" id="ftr-logo-img" alt="">
+          </div>
+          <div id="ftr-icons-div">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div id="ftr-content-div">
+            <p><i class="fa-regular fa-copyright"></i> 2021 Food delivery kit. All Rights Reserved .
+              &nbsp;<span>Terms of Use&nbsp;<i class="fa-solid fa-circle"
+                  style="color: #83859C; margin: 2px 5px;"></i>&nbsp;Privacy Policy</span></p>
+          </div>
+        </div>
+        <div id="ftr-content-2">
+          <div class="content">
+            <h3>Responses</h3>
+            <p>How it works</p>
+            <p>Guarantee</p>
+            <p>Security</p>
+            <p>Pricing</p>
+          </div>
+          <div class="content">
+            <h3>Company</h3>
+            <p>About us</p>
+            <p>Prices</p>
+            <p>Blog</p>
+            <p>License</p>
+          </div>
+          <div class="content">
+            <h3>Support</h3>
+            <p>Getting strated</p>
+            <p>Help center</p>
+            <p>Report a bug</p>
+            <p>Contact us</p>
+          </div>
+        </div>
+        <div id="ftr-content-div-copy">
+          <p><i class="fa-regular fa-copyright"></i> 2021 Food delivery kit. All Rights Reserved .
+            <div >
+            Terms of Use&nbsp;<i class="fa-solid fa-circle"
+                style="color: #83859C; margin: 2px 5px;"></i>&nbsp;Privacy Policy</p>
+              </div>
+        </div>
+      </div>
+      
+    </footer>
+
+
+
+</body>
+
+</html>
